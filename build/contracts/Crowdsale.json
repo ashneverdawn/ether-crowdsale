@@ -1,0 +1,122 @@
+{
+  "contract_name": "Crowdsale",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "Fund",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "beneficiary",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "fundingGoal",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "amountRaised",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "CloseCrowdSale",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "fundAmount",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "GetRefund",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "campaignIsOpen",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "_fundingGoal",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "constructor"
+    },
+    {
+      "payable": true,
+      "type": "fallback"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000c57fe5b6040516020806103b783398101604052515b6000805474010000000000000000000000000000000000000000600160a060020a031990911633600160a060020a03161760a060020a60ff02191617815560018290556002555b505b610341806100766000396000f300606060405236156100725763ffffffff60e060020a60003504166327b2dc14811461009857806338af3eed146100ad5780637a3a0e84146100d95780637b3e5e7b146100fb5780638fd786021461011d578063b82ffdf91461012f578063e9b4bd831461015d578063fb3a40c81461016f575b6100965b60005460a060020a900460ff16156100915761009134610193565b5b5b5b565b005b34156100a057fe5b610096600435610193565b005b34156100b557fe5b6100bd6101db565b60408051600160a060020a039092168252519081900360200190f35b34156100e157fe5b6100e96101ea565b60408051918252519081900360200190f35b341561010357fe5b6100e96101f0565b60408051918252519081900360200190f35b341561012557fe5b6100966101f6565b005b341561013757fe5b6100e9600160a060020a036004351661028f565b60408051918252519081900360200190f35b341561016557fe5b6100966102a1565b005b341561017757fe5b61017f610305565b604080519115158252519081900360200190f35b60005460a060020a900460ff16156101d55760008111156101d557600160a060020a033316600090815260036020526040902080548201905560028054820190555b5b5b5b50565b600054600160a060020a031681565b60015481565b60025481565b60005433600160a060020a03908116911614156100915760005433600160a060020a03908116911614156100915760015460025410610272576000805460a060020a60ff0219168155600254604051600160a060020a0333169282156108fc02929190818181858888f19350505050151561026d57fe5b610091565b6000805460a060020a60ff02191660a060020a1790555b5b5b5b5b565b60036020526000908152604090205481565b6000805460a060020a900460ff16156101d55750600160a060020a033316600081815260036020526040808220805490839055600280548290039055905190929183156108fc02918491818181858888f1935050505015156101d557fe5b5b5b5b50565b60005460a060020a900460ff16815600a165627a7a723058205bcb464430c39e62059a1ddcc2ab76b4491e8a618d528f15826567414e11db140029",
+  "networks": {},
+  "schema_version": "0.0.5",
+  "updated_at": 1499585577881
+}
